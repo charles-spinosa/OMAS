@@ -3,8 +3,7 @@ const express = require('express')
 const app = express()
 const port = process.env.port || 8080
 
-// app.get('/')
-// app.use(express.static('./public/OMAS.html'))
+console.log(port);
 
 app.get('/', (req, res) => {
   console.log('found a req')
