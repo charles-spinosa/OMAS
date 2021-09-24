@@ -8,6 +8,4 @@ const port = process.env.port || 8080
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/public/OMAS.html')))
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
+app.listen(port)
