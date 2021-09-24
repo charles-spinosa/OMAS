@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.port || 8080
 
 // app.get('/')
 // app.use(express.static('./public/OMAS.html'))
